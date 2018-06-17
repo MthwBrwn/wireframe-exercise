@@ -1,0 +1,66 @@
+
+body {
+  width: 960px;
+  text-align: center;
+}
+
+nav {
+  display: inline;
+  text-align: left;
+  width: 960px;
+  height: 70px;
+  margin: 15px auto;
+}
+
+nav a {
+  padding: 15px 0px;
+  float: left;
+}
+
+section {
+  text-align: left;
+  width: 990 px;
+  display: inline-block;
+  /* margin : 15px; */
+
+}
+img {
+  float:left;
+  margin: 15px;
+}
+
+article {
+  position: relative;
+  display: inline; 
+  width: 400 px;
+  height: 300 px;
+  margin: 15px 0px 15px 15px;
+  
+
+}
+
+li {
+  display: inline-block;
+    font-family: sans-serif;
+    margin: 15px;
+    line-height: 70px;
+    font-size: 30px;
+    padding: 13px 0 0 0;
+}
+
+h2 {
+  font-size: 24px; 
+}
+
+p{
+  font-size: 19px;
+  overflow: scroll;
+}
+
+h3 {
+  font-size: 30px;
+  width: 250 px;
+  background-color: #444;
+  position: absolute;
+  top: 300px ; 
+}
