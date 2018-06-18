@@ -1,7 +1,12 @@
 
 body {
-  width: 960px;
+  outline: #444;
+  width: 990px;
   text-align: center;
+  /* sizing tools  */
+  outline-color: black;
+  outline-width: 3px;
+  outline-style: dashed;
 }
 
 nav {
@@ -19,22 +24,29 @@ nav a {
 
 section {
   text-align: left;
+  float: left;
   width: 990 px;
-  display: inline-block;
+  /* display: inline-block; */
   /* margin : 15px; */
 
 }
 img {
   float:left;
-  margin: 15px;
+  margin: 15px ;
+  box-sizing: border-box;
 }
 
 article {
-  position: relative;
-  display: inline; 
+ 
+  /* box-sizing: border-box; */
   width: 400 px;
   height: 300 px;
-  margin: 15px 0px 15px 15px;
+  margin: 15px ;
+  padding-left: 15px;
+  outline-color: black;
+  outline-width: 3px;
+  outline-style: dashed;
+  overflow: hidden;
   
 
 }
@@ -50,17 +62,28 @@ li {
 
 h2 {
   font-size: 24px; 
+  padding-bottom: 10px;
 }
 
-p{
+p {
   font-size: 19px;
+  height: 200px;
   overflow: scroll;
+  line-height: 2 px;
+
 }
 
 h3 {
-  font-size: 30px;
-  width: 250 px;
+  clear: both;
+  font-size: 16px;
+  color: white;
+  width: 150px;
+  height: 30px;
   background-color: #444;
-  position: absolute;
-  top: 300px ; 
+  border-radius: 10px;
+  text-align: center;
+  padding: 14px 0 0 0;
+  
+  
+  
 }
