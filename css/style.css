@@ -7,15 +7,14 @@ body {
 }
 
 nav {
-  /* display: inline; */
-  text-align: center;
+  display: inline;
   width: 100%;
-  margin: 15px auto;
+ 
 
 }
 
 nav a {
-  padding: 1.5% 0;
+  /* padding: 1.5% 0; */
   /* float: left; */
   
   
@@ -25,19 +24,37 @@ section {
   width: 100%;
   text-align: left;
   float: left;
+  display: inline-block
 
 }
+.hero {
+  /* margin: 0 auto; */
+  width: 100%;
+}
 .threefold {
-  width: 25.25%;
-  float:left;
-  margin: 1.56% ;
-  color: green;
-  }
-
-  .featured-banner {
-    width: 50%
+  width: 29.5%;
+    float: left;
+    margin: 1.6%;
+    color: green;
     
   }
+
+  .threefold:first-child{
+    margin: 1.6% 1.6% 1.6% 0%;
+  }
+
+  .threefold:last-child {
+    margin: 1.6% 0% 1.6% 1.6%;
+  }
+
+.featured-banner {
+    width: 50%
+
+}
+
+/* .featured-section {
+  display: inline-block;
+} */
 
 article {
  
@@ -47,24 +64,33 @@ article {
   overflow: hidden;
   line-height: 1.5 em;
   
+  
 
 }
 
 .logo-wrap {
   width: 29%;
+  background-color: aqua; 
+  display: inline-block;
+  text-align: center;
+ 
 } 
 
 ul {
-  width: 70%; 
-  outline: solid 2 px #333;
+  width: 69%;
+  background-color: palevioletred;
+  display: inline-table;
+  text-align: center;
 }
 li {
   display: inline-block;
     font-family: sans-serif;
     /* margin: 1%; */
-    line-height: 70px;
+    /* line-height: 70px; */
     font-size: 1.8 em;
-    padding: 1.5% 0 0 0;
+    padding-left: 4%;
+    padding-bottom: 10 px;
+
 }
 
 h2 {
