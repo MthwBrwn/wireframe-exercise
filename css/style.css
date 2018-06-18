@@ -7,14 +7,13 @@ body {
 }
 
 nav {
-  display: inline;
+  /* display: inline; */
   width: 100%;
  
 
 }
 
 nav a {
-  /* padding: 1.5% 0; */
   /* float: left; */
   
   
@@ -22,33 +21,32 @@ nav a {
 
 section {
   width: 100%;
-  text-align: left;
+  /* text-align: left; */
   float: left;
-  display: inline-block
+ 
 
 }
 .hero {
-  /* margin: 0 auto; */
+
   width: 100%;
 }
 .threefold {
-  width: 29.5%;
-    float: left;
-    margin: 1.6%;
-    color: green;
+  width: 33.0%;
+  padding: 1%;
+
     
   }
 
-  .threefold:first-child{
-    margin: 1.6% 1.6% 1.6% 0%;
+#one {
+  padding: 1% 1.% 1.% 0%;
   }
 
-  .threefold:last-child {
-    margin: 1.6% 0% 1.6% 1.6%;
-  }
+  #three {
+    padding: 1% 0% 1% 1%;
+  } 
 
 .featured-banner {
-    width: 50%
+    width: 50%;
 
 }
 
@@ -58,19 +56,23 @@ section {
 
 article {
  
-  width: 43%;
-  margin: 15px ;
-  padding-left: 7%;
+  width: 39%;
+  margin: 15px;
+  padding-left: 2%;
+  padding-right: 1%;
   overflow: hidden;
   line-height: 1.5 em;
+  display: inline-block;
   
   
-
+}
+.foot-pic{
+  width: 100%;
 }
 
 .logo-wrap {
   width: 29%;
-  background-color: aqua; 
+  /* background-color: aqua;  */
   display: inline-block;
   text-align: center;
  
@@ -78,9 +80,10 @@ article {
 
 ul {
   width: 69%;
-  background-color: palevioletred;
-  display: inline-table;
+  display: inline-block;
   text-align: center;
+  position: relative;
+  top: -30px;
 }
 li {
   display: inline-block;
