@@ -1,75 +1,82 @@
 
 body {
-  outline: #444;
-  width: 990px;
-  text-align: center;
-  /* sizing tools  */
-  outline-color: black;
-  outline-width: 3px;
-  outline-style: dashed;
+
+  width: 100%;
+  /* text-align: center; */
+
 }
 
 nav {
-  display: inline;
-  text-align: left;
-  width: 960px;
-  height: 70px;
+  /* display: inline; */
+  text-align: center;
+  width: 100%;
   margin: 15px auto;
+
 }
 
 nav a {
-  padding: 15px 0px;
-  float: left;
+  padding: 1.5% 0;
+  /* float: left; */
+  
+  
 }
 
 section {
+  width: 100%;
   text-align: left;
   float: left;
-  width: 990 px;
-  /* display: inline-block; */
-  /* margin : 15px; */
 
 }
-img {
+.threefold {
+  width: 25.25%;
   float:left;
-  margin: 15px ;
-  box-sizing: border-box;
-}
+  margin: 1.56% ;
+  color: green;
+  }
+
+  .featured-banner {
+    width: 50%
+    
+  }
 
 article {
  
-  /* box-sizing: border-box; */
-  width: 400 px;
-  height: 300 px;
+  width: 43%;
   margin: 15px ;
-  padding-left: 15px;
-  outline-color: black;
-  outline-width: 3px;
-  outline-style: dashed;
+  padding-left: 7%;
   overflow: hidden;
+  line-height: 1.5 em;
   
 
 }
 
+.logo-wrap {
+  width: 29%;
+} 
+
+ul {
+  width: 70%; 
+  outline: solid 2 px #333;
+}
 li {
   display: inline-block;
     font-family: sans-serif;
-    margin: 15px;
+    /* margin: 1%; */
     line-height: 70px;
-    font-size: 30px;
-    padding: 13px 0 0 0;
+    font-size: 1.8 em;
+    padding: 1.5% 0 0 0;
 }
 
 h2 {
-  font-size: 24px; 
-  padding-bottom: 10px;
+  font-size: 26px; 
+  padding-bottom: 15px;
 }
 
 p {
   font-size: 19px;
-  height: 200px;
+  height: 312px;
   overflow: scroll;
-  line-height: 2 px;
+  line-height: 1.4;
 
 }
 
@@ -79,11 +86,14 @@ h3 {
   color: white;
   width: 150px;
   height: 30px;
-  background-color: #444;
+  background-color: #333;
   border-radius: 10px;
   text-align: center;
   padding: 14px 0 0 0;
-  
-  
-  
+}
+
+h3:hover {
+  background-color: #CCC;
+  color: #111;
+
 }
